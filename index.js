@@ -34,6 +34,6 @@ function actionApplyer(value, functionsArray){
     value = functionsArray[0](value);
     value = functionsArray[1](value);
     value = functionsArray[2](value);
-    return value; 
+    return value;
   }
 }
