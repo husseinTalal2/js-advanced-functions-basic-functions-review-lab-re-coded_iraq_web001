@@ -25,3 +25,9 @@ let Calculator = {
     return x / y;
   }
 };
+
+function actionApplyer(value, functionsArray){
+  if(functionsArray.length === 0){
+    return value;
+  }
+}
