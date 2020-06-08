@@ -30,4 +30,10 @@ function actionApplyer(value, functionsArray){
   if(functionsArray.length === 0){
     return value;
   }
+  else{
+    value = functionsArray[0](value);
+    value = functionsArray[1](value);
+    value = functionsArray[2](value);
+    return value; 
+  }
 }
